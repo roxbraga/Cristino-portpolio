@@ -3,18 +3,22 @@
     "id": 1,
     "title": "Front End- Portpolio",
     "description": "RESTful API with authentication, order processing, inventory management, and role-based access control.",
-    "image": "/images/capstone1.png"
+    "image": "/images/capstone1.png",
+    "url": "https://cristino-portpolio.vercel.app/"
   },
   {
     "id": 2,
     "title": "Back End- Rest API",
     "description": "Booking system API with user registration, scheduling, payments, and admin dashboard support.",
-    "image": "/images/capstone2.png"
+    "image": "/images/capstone2.png",
+    "url": "https://yslvek04hi.execute-api.us-east-2.amazonaws.com/production/"
+
   },
   {
     "id": 3,
     "title": "Full Stack- E-commerce APP",
     "description": "Full MEVN-stack booking application with authentication, protected routes, and responsive UI.",
-    "image": "/images/capstone3.png"
+    "image": "/images/capstone3.png",
+    "url": "http://zuitt-bootcamp-prod-582-9253-madali.s3-website.us-east-1.amazonaws.com/"
   }
 ]
