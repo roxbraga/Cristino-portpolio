@@ -10,22 +10,18 @@
         v-for="capstone in capstones"
         :key="capstone.id"
       >
-        <router-link
-          :to="`/capstone/${capstone.id}`"
-          class="text-decoration-none"
-        >
-          <CapstoneCard
-            :title="capstone.title"
-            :description="capstone.description"
-            :image="capstone.image"
-          />
-        </router-link>
+        <CapstoneCard
+          :title="capstone.title"
+          :description="capstone.description"
+          :image="capstone.image"
+          :url="capstone.url"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import capstones from '../data/capstone.json'
-import CapstoneCard from './CapstoneCard.vue'
+import capstones from "../data/capstone.json";
+import CapstoneCard from "./CapstoneCard.vue";
 </script>
