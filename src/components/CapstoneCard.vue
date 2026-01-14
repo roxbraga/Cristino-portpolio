@@ -7,13 +7,14 @@
       <p class="text-secondary small">{{ description }}</p>
 
       <div class="card-actions">
-        <button class="btn btn-view" @click="$emit('view')">
+        <a
+          :href="url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-view"
+        >
           View
-        </button>
-
-        <button class="btn btn-details" @click="$emit('details')">
-          Details
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -23,8 +24,7 @@
 defineProps({
   title: String,
   description: String,
-  image: String
+  image: String,
+  url: String
 })
-
-defineEmits(['view', 'details'])
 </script>
