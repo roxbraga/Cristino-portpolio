@@ -1,11 +1,12 @@
 [
-  {
+    {
     "id": 1,
-    "title": "Front End- Portpolio",
-    "description": "RESTful API with authentication, order processing, inventory management, and role-based access control.",
+    "title": "Front End – Portfolio",
+    "description": "A personal portfolio website showcasing my projects, skills, and capstone works, built with modern frontend technologies and a responsive UI.",
     "image": "/images/capstone1.png",
     "url": "https://cristino-portpolio.vercel.app/"
   },
+
   {
     "id": 2,
     "title": "Back End- Rest API",
