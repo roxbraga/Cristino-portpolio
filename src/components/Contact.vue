@@ -68,7 +68,7 @@ const isLoading = ref(false);
 const notyf = new Notyf();
 
 // reCAPTCHA
-const SITE_KEY = "6LceREosAAAAAIzZxEgt4SlZarBNdYdag0lnsRZC";
+const SITE_KEY = "6LcrXEosAAAAANfAQWjo92ybPXxvoBeDtzELVYeX";
 const recaptchaContainer = ref(null);
 const recaptchaWidgetId = ref(null);
 const recaptchaToken = ref("");
