@@ -1,0 +1,178 @@
+body {
+  background: #000;
+  color: #e5e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.text-yellow { color: #facc15; }
+.text-purple { color: #7c3aed; }
+
+header {
+  background: linear-gradient(180deg, #000000, #111827);
+  border-bottom: 1px solid #7c3aed;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.nav-link-custom {
+  color: #7c3aed;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link-custom:hover {
+  color: #facc15;
+}
+
+.hero-img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #000;
+}
+
+.project-card {
+  background: #111827;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 100%;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(250, 204, 21, .3);
+}
+
+.project-img {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tool-card {
+  background: #1f2933;
+  border: 1px solid #facc15;
+  border-radius: 1rem;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-card img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 360px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contact-info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+.contact-card {
+  background: linear-gradient(180deg, #0f172a, #020617);
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1rem;
+  color: #e5e7eb;
+}
+
+.form-group textarea {
+  height: 140px;
+  resize: none;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-weight: 700;
+  background: #facc15;
+  border: 2px solid #facc15;
+  border-radius: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.contact-btn:hover {
+  background: transparent;
+  color: #facc15;
+}
+
+footer {
+  background: linear-gradient(90deg, #000000, #111827);
+  border-top: 1px solid #7c3aed;
+}
+
+.card-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.card-actions .btn {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 999px;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+/* VIEW BUTTON (secondary action) */
+.btn-view {
+  background: transparent;
+  border: 1px solid rgba(250, 204, 21, 0.6);
+  color: #facc15;
+}
+
+.btn-view:hover {
+  background: #facc15;
+  color: #0f0f14;
+  transform: translateY(-1px);
+}
+
+/* DETAILS BUTTON (primary action) */
+.btn-details {
+  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(124, 58, 237, 0.35);
+}
+
+.btn-details:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+/* ENHANCED HOVER FEEL */
+.project-card:hover .btn-details {
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.5);
+}
