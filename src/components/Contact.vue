@@ -2,6 +2,7 @@
   <section id="contact" class="contact-section">
     <h3 class="contact-title">Let’s work together</h3>
 
+    <!-- TOP: FORM + MAP -->
     <div class="contact-wrapper">
       <!-- FORM -->
       <div class="contact-card">
@@ -10,7 +11,7 @@
             v-model="name"
             type="text"
             class="contact-input"
-            placeholder="First Name M.I. Last Name"
+            placeholder="Name"
             required
           />
 
@@ -29,11 +30,7 @@
             placeholder="Message"
           ></textarea>
 
-          <button
-            type="submit"
-            class="submit-btn"
-            :disabled="isLoading"
-          >
+          <button type="submit" class="submit-btn" :disabled="isLoading">
             {{ isLoading ? "Sending..." : "Send Message" }}
           </button>
 
@@ -50,8 +47,59 @@
         ></iframe>
       </div>
     </div>
+
+    <!-- BOTTOM: SOCIAL + CONTACT INFO -->
+    <div class="contact-bottom">
+
+      <!-- SOCIAL ICONS -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/cristino-france-madali-596450296/" target="_blank" title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a href="https://www.kalibrr.com/profile/your-profile" target="_blank" title="Kalibrr">
+          <i class="bi bi-bar-chart-fill"></i>
+        </a>
+
+        <a href="https://www.upwork.com/freelancers/your-profile" target="_blank" title="Upwork">
+          <i class="bi bi-person-workspace"></i>
+        </a>
+
+        <a href="#"  title="Indeed">
+          <i class="bi bi-briefcase-fill"></i>
+        </a>
+
+        <a href="mailto:cristinofrancemadali@gmail.com" title="Gmail">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+
+        <a href="https://www.facebook.com/france.madali" target="_blank" title="facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="bi bi-geo-alt-fill text-purple"></i>
+          <span>Lucban, Quezon</span>
+        </div>
+
+        <div class="info-item">
+          <i class="bi bi-telephone-fill text-purple"></i>
+          <span>0995 282 8785</span>
+        </div>
+
+        <div class="info-item">
+          <i class="bi bi-envelope-fill text-purple"></i>
+          <span>cristinofrancemadali@gmail.com</span>
+        </div>
+      </div>
+
+    </div>
   </section>
 </template>
+
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
@@ -243,4 +291,91 @@ const submitForm = async () => {
     height: 280px;
   }
 }
+
+   /*CONTACT BOTTOM ALIGNMENT*/
+
+.contact-bottom {
+  max-width: 1100px;
+  margin: 16px auto 0; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+/* LEFT = SOCIAL ICONS (under FORM) */
+.contact-bottom .social-icons {
+  justify-self: start;
+}
+
+/* RIGHT = CONTACT INFO (under MAP) */
+.contact-bottom .contact-info {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 20px;                 
+  color: #facc15;
+  font-size: 0.95rem;
+  white-space: nowrap;       
+  margin: 1px auto 0;
+}
+
+/* SOCIAL ICON STYLES */
+.social-icons {
+  display: flex;
+  gap: 12px; 
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0f0f14;
+  color: #facc15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  border: 1px solid rgba(250,204,21,0.3);
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #facc15;
+  color: #0f0f14;
+  box-shadow: 0 0 12px rgba(250,204,21,0.4);
+}
+
+/* CONTACT INFO ITEMS */
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* tighter */
+}
+
+.info-item i {
+  font-size: 1.1rem;
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  .contact-bottom {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    text-align: center;
+  }
+
+  .contact-bottom .social-icons,
+  .contact-bottom .contact-info {
+    justify-self: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 10px;
+    white-space: normal; 
+  }
+}
+
 </style>

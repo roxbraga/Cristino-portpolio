@@ -7,6 +7,7 @@ import CapstoneDetails from './components/CapstoneDetails.vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import './assets/main.css'
 
 const router = createRouter({

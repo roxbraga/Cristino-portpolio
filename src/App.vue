@@ -17,4 +17,5 @@ import Projects from './components/Projects.vue'
 import Tools from './components/Tools.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
+
 </script>
