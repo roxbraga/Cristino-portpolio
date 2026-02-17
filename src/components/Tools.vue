@@ -1,38 +1,133 @@
 <template>
-	<!-- Tools Section -->
+  <!-- Tools Section -->
   <section id="tools" class="container py-5 text-center">
     <h2 class="text-yellow fw-bold mb-5">Tools & Technologies</h2>
 
     <div class="row g-5">
-      <div class="col-md-4">
-        <h5 class="text-yellow mb-4">Front End</h5>
-        <div class="d-flex justify-content-center gap-3 flex-wrap">
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" title="HTML 5"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" title="CSS 3"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" title="bootstrap"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" title="JavaScript"></div>
+
+      <!-- Frontend -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="text-yellow mb-4">Frontend</h5>
+
+        <div class="row g-3 justify-content-center">
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" title="HTML5">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" title="CSS3">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" title="Bootstrap">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" title="JavaScript">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" title="VueJS">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React">
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="col-md-4">
-        <h5 class="text-yellow mb-4">MEVN Stack</h5>
-        <div class="d-flex justify-content-center gap-3 flex-wrap">
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" alt="MongoDB" title="MongoDB"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="ExpressJS" title="ExpressJS"></div>
-          <div class="tool-card"><img src="/images/images.jpg" alt="VueJS" title="VueJS"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="NodeJS" title="NodeJS"></div>
+
+      <!-- Backend & Database -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="text-yellow mb-4">Backend & Database</h5>
+
+        <div class="row g-3 justify-content-center">
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" title="NodeJS">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="ExpressJS">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" title="MongoDB">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" title="PostgreSQL">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="/images/aws.png" title="AWS">
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <div class="col-md-4">
-        <h5 class="text-yellow mb-4">Other Tools</h5>
-        <div class="d-flex justify-content-center gap-3 flex-wrap">
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" title="GIT"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" title="Heroku"></div>
-          <div class="tool-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" title="Postman"></div>
-          <div class="tool-card"><img src="/images/sublime.jpg" title="Sublime"></div>
+
+      <!-- DevOps & Tools -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="text-yellow mb-4">DevOps & Tools</h5>
+
+        <div class="row g-3 justify-content-center">
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" title="Git">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" title="Postman">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" title="Vercel">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="/images/render.png" title="Render">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="/images/sublime.jpg" title="Sublime">
+            </div>
+          </div>
+
         </div>
       </div>
+
     </div>
   </section>
 </template>

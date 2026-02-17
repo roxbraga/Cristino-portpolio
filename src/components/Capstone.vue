@@ -6,12 +6,13 @@
 
     <div class="row g-4">
       <div
-        class="col-sm-6 col-lg-4"
+        class="col-sm-6 col-lg-4 d-flex"
         v-for="capstone in capstones"
         :key="capstone.id"
       >
         <CapstoneCard
           :title="capstone.title"
+          :subtitle="capstone.subtitle"
           :description="capstone.description"
           :image="capstone.image"
           :url="capstone.url"

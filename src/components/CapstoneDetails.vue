@@ -18,6 +18,11 @@
           {{ capstone.title }}
         </h2>
 
+        <h3 class="text-yellow fw-bold mb-3">
+          {{ capstone.subtitle }}
+          
+        </h3>
+
         <p class="text-secondary">
           {{ capstone.description }}
         </p>
