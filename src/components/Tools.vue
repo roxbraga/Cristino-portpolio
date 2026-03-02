@@ -81,9 +81,17 @@
 
           <div class="col-4">
             <div class="tool-card">
-              <img src="/images/aws.png" title="AWS">
+              <img src="/images/nest.webp" title="NestJS">
             </div>
           </div>
+
+          <div class="col-4">
+            <div class="tool-card">
+              <img src="/images/prisma.png" title="Prisma">
+            </div>
+          </div>
+
+          
 
         </div>
       </div>
@@ -109,6 +117,12 @@
 
           <div class="col-4">
             <div class="tool-card">
+              <img src="/images/vs.png" title="VS-code">
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="tool-card">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" title="Vercel">
             </div>
           </div>
@@ -119,9 +133,11 @@
             </div>
           </div>
 
+          
+
           <div class="col-4">
             <div class="tool-card">
-              <img src="/images/sublime.jpg" title="Sublime">
+              <img src="/images/aws.png" title="AWS">
             </div>
           </div>
 

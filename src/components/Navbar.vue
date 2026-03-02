@@ -9,7 +9,7 @@
         <a href="#projects" class="nav-link-custom">Projects</a>
         <a href="#contact" class="nav-link-custom">Contact</a>
         <a
-          href="/images/resume.pdf"
+          href="/images/CFM-Resume.pdf"
           target="_blank"
           rel="noopener"
           class="nav-link-custom"
