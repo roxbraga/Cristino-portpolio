@@ -1,7 +1,7 @@
 <template>
   <header class="py-3 px-3 px-md-5">
     <div class="container-fluid d-flex align-items-center">
-      <h1 class="fs-4 fw-bold text-yellow m-0">CRISTINO FRANCE</h1>
+      <h1 class="display-6 fs-4 fw-bold  m-0">CRISTINO FRANCE</h1>
 
       <!-- Desktop Navigation -->
       <nav class="ms-auto d-none d-md-flex gap-4">

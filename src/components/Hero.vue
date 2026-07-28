@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="col-md-6 text-center">
-        <img src="/images/rox.png" class="hero-img">
+        <img src="/images/pic2.png" class="hero-img">
       </div>
     </div>
   </section>
