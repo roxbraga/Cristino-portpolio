@@ -10,7 +10,7 @@
 
   <div class="section-heading">
     <span class="eyebrow">FEATURED PROJECTS</span>
-    <h2>Things I've built.</h2>
+    <h2>Things i've built.</h2>
   </div>
 
 </div>
