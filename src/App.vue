@@ -7,6 +7,7 @@
   <Tools />
   <Contact />
   <Footer />
+  <BackToTop />
 </template>
 
 <script setup>
@@ -17,5 +18,6 @@ import Projects from './components/Projects.vue'
 import Tools from './components/Tools.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
+import BackToTop from "./components/BackToTop.vue"
 
 </script>
