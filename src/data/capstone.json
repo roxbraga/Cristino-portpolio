@@ -2,10 +2,10 @@
     {
     "id": 1,
     "title": "Frontend Project",
-    "subtitle": "Personal Web Portfolio",
-    "description": "A personal portfolio website showcasing my projects, skills, and capstone works, built with modern frontend technologies and a responsive UI.",
-    "image": "/images/capstone1.png",
-    "url": "https://cristino-portpolio.vercel.app/"
+    "subtitle": "Home-Page-Exam",
+    "description": "This project is a Single-Page Responsive Website built using HTML, CSS, Bootstrap. It focuses on creating a modern, user-friendly, and mobile-responsive interface without using a database",
+    "image": "/images/side project 1.png",
+    "url":  "https://roxbraga.github.io/home-page-exam"
   },
 
   {
@@ -14,7 +14,7 @@
     "subtitle": "Rest Crud API",
     "description": "This REST API serves as a scalable backend foundation for future full-stack applications, handling core features such as CRUD operations and role-based access control.",
     "image": "/images/capstone2.png",
-    "url": "https://yslvek04hi.execute-api.us-east-2.amazonaws.com/production/"
+    "url": "https://fullstack-ecommerce-api-bqyz.onrender.com"
 
   },
   {
@@ -23,19 +23,19 @@
     "subtitle": "E-commerce Web application",
     "description": "Full MEVN-stack booking application with authentication, protected routes, and responsive UI.",
     "image": "/images/capstone3.png",
-    "url": "http://zuitt-bootcamp-prod-582-9253-madali.s3-website.us-east-1.amazonaws.com/"
+    "url": "https://fullstack-ecommerce-app-v41g.onrender.com"
   },
   {
     "id": 4,
-    "title": "Side Project 1",
-    "subtitle": "Home-Page-Exam",
-    "description": "This project is a Single-Page Responsive Website built using HTML, CSS, Bootstrap, and Vue.js. It focuses on creating a modern, user-friendly, and mobile-responsive interface without using a database",
-    "image": "/images/side project 1.png",
-    "url": "https://roxbraga.github.io/home-page-exam"
+    "title": "Personal Backend Project ",
+    "subtitle": "Proxy Checker",
+    "description": "Developed a TypeScript/Node.js CLI tool for validating proxy connectivity, measuring response times, and processing proxy lists concurrently. Implemented proxy parsing, authentication support, timeout handling, concurrency control, and structured JSON/text result reporting using Axios and p-limit.",
+    "image": "/images/Proxy.png",
+    "url": "https://github.com/roxbraga/Proxy-checker"
   },
   {
     "id": 5,
-    "title": "Side Project 2",
+    "title": "Side Project 1",
     "subtitle": "Educational Resource Hub",
     "description": "This project is a Single-Page Responsive Website built using HTML, CSS, Bootstrap, and Vue.js. It focuses on creating a modern, user-friendly, and mobile-responsive interface without using a database",
     "image": "/images/side project-2.png",
