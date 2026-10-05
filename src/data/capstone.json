@@ -13,7 +13,7 @@
     "title": "Backend Project",
     "subtitle": "Rest Crud API",
     "description": "This REST API serves as a scalable backend foundation for future full-stack applications, handling core features such as CRUD operations and role-based access control.",
-    "image": "backendAPI.png",
+    "image": "/images/backendAPI.png",
     "url": "https://fullstack-ecommerce-api-1.onrender.com/"
 
   },
